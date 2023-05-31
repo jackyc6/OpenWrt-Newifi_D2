@@ -20,8 +20,8 @@ env:
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
-  UPLOAD_WETRANSFER: true
-  UPLOAD_RELEASE: true
+  UPLOAD_WETRANSFER: false
+  UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
 
 on:
@@ -34,6 +34,8 @@ on:
         default: 'false'
 #  schedule:
 #    - cron: 0 8 */5 * *
+  watch:
+   types: [started]
 
 jobs:
   build:
