@@ -11,7 +11,7 @@
 # fw876/helloworld
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.defaultault
 
-echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 
 #sed -i 's@coolsnowwolf/packages@P3TERX/packages@' feeds.conf.default
 
@@ -19,4 +19,7 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 
 #sed -i '$a src-git helloworld https://github.com/P3TERX/helloworld' feeds.conf.default
 
-sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
+#sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
+
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
