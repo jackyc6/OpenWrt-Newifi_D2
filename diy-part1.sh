@@ -22,8 +22,8 @@
 sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
 
 # Clash插件
-git clone https://github.com/vernesong/OpenClash package/luci-app-clash
+#git clone https://github.com/vernesong/OpenClash package/luci-app-clash
 
 #PassWall插件
-git clone https://github.com/kenzok8/small-package package/small-package
+#git clone https://github.com/kenzok8/small-package package/small-package
 
