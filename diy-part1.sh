@@ -19,7 +19,7 @@
 
 #sed -i '$a src-git helloworld https://github.com/P3TERX/helloworld' feeds.conf.default
 
-sed -i 'src-git small8 https://github.com/kenzok8/small-package/' feeds.conf.default
+sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
 
 # Clash插件
 #git clone https://github.com/vernesong/OpenClash package/luci-app-clash
