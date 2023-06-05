@@ -27,4 +27,4 @@ sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.d
 #PassWall插件
 #git clone https://github.com/kenzok8/small-package package/small-package
 
-git clone https://github.com/sirpdboy/luci-app-netdata package/luci-app-netdata
+#git clone https://github.com/sirpdboy/luci-app-netdata package/luci-app-netdata
