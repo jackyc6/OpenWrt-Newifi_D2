@@ -15,7 +15,7 @@
 
 #sed -i 's@coolsnowwolf/packages@P3TERX/packages@' feeds.conf.default
 
-sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
+#sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 
 #sed -i '$a src-git helloworld https://github.com/P3TERX/helloworld' feeds.conf.default
 
@@ -27,6 +27,6 @@ sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds
 #PassWall插件
 #git clone https://github.com/kenzok8/small-package package/small-package
 
-git clone https://github.com/xiaorouji/openwrt-passwall  package/luci-app-passwall
+#git clone https://github.com/xiaorouji/openwrt-passwall  package/luci-app-passwall
 
 #git clone https://github.com/sirpdboy/luci-app-netdata package/luci-app-netdata
